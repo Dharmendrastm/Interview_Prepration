@@ -1,0 +1,399 @@
+# 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+1. What is CIA Triad’s? 
+The CIA Triad is a founda onal model in cybersecurity, standing for Confiden ality, Integrity, 
+and Availability. It outlines the three essen al principles that ensure the protec on of data 
+and systems. 
+a. Confiden ality: - Refers to protec ng sensi ve informa on from unauthorized access 
+or disclosure. 
+b.  Integrity: - Refers to maintaining the accuracy and consistency of data and ensuring 
+that is not tempered with or modified in an unauthorized manner. 
+c.  
+Availability: - Refers to ensuring that systems, data and resources are available and 
+accessible to authorized users when needed. 
+2. What is AAA?  
+It is stands for Authen ca on, Authoriza on, and Accoun ng. It is a framework for 
+controlling access to resources, ensuring proper iden ty verifica on, and tracking the use of 
+system resources. 
+a. Authen ca on: - The process of verifying the iden fy a user, device, or system 
+a emp ng a access a network or resources. 
+b. Authoriza on: - The process of gran ng access to specific resources or informa on based 
+on user’s iden ty, role, or privileges. 
+c. Accoun ng: - This refers to tracking and recording the ac ons performed by a user or 
+system. It helps monitor ac vi es, create logs, and maintain an audit trail for future 
+analysis or compliance purposes. 
+3. What is difference between stateful and stateless firewall? 
+Parameters  
+Stateful 
+Philosophy 
+Stateless 
+Stateful firewalls maintain 
+context about ac ve sessions 
+and use “state informa on” 
+to speed packets processing 
+Filtering decision 
+Treats each packet in 
+isola on and does not relates 
+to connec on state. 
+Based on flows and 
+connec on state (analyses 
+packet sequences). 
+Memory and CPU intensive 
+Based solely on informa on 
+in packet headers (IP 
+address, port number, etc 
+High (requires resources to 
+maintain state informa on 
+for each connec on). 
+Security 
+High (tracks connec on 
+state, providing deeper 
+inspec on). 
+Low (does not track 
+connec ons, so uses fewer 
+resources). 
+Low (does not track 
+connec on state, making it 
+easier to bypass security) 
+Connec on Status 
+Known (tracks the state of 
+the connec on). 
+Performance 
+Unknown (each packet is 
+treated independently). 
+Slower (due to the overhead 
+of tracking connec on 
+states). 
+Related terms 
+Faster (since it doesn't track 
+state or maintain connec on 
+informa on). 
+State informa on, pa ern 
+matching etc. 
+Header info, IP address, port 
+no etc. 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+4. Explain DDOS a ack and how to mi gate it? 
+This again is an important Cybersecurity Interview Ques on. A DDOS (Distributed Denial of 
+Service) a ack is a cybera ack that causes the servers to refuse to provide services to genuine 
+clients. DDOS a ack can be classified into two types:  
+1.  Flooding a acks: In this type, the hacker sends a huge amount of traffic to the server 
+which the server cannot handle. And hence, the server stops func oning. This type of 
+a ack is usually executed by using automated programs that con nuously send packets to 
+the server.  
+2. Crash a acks: In this type, the hackers exploit a bug on the server resul ng in the system 
+to crash and hence the server is not able to provide service to the clients.  
+You can prevent DDOS a acks by using the following prac ces: 
+ Use An-DDOS services  
+ Configure Firewalls and Routers  
+ Use Front-End Hardware  
+ Use Load Balancing  
+ Handle Spikes in Traffic 
+5. Differen ate between Vulnerability Assessment and Penetra on Tes ng? 
+Vulnerability Assessment is the process of finding flaws on the target. Here, the organiza on 
+knows that their system/network has flaws or weaknesses and want to find these flaws and 
+priori ze the flaws for fixing. 
+Penetra on Tes ng is the process of finding vulnerabili es on the target. In this case, the 
+organiza on would have set up all the security measures they could think of and would want to 
+test if there is any other way that their system/network can be hacked. 
+6. What are the common types of cyber security a acks? 
+Phishing: A ackers send fraudulent emails or messages that appear to come from reputable sources, 
+aiming to trick users into revealing sensi ve informa on like passwords or financial details. 
+Malware: Malicious so ware, including viruses, ransomware, worms, and spyware, designed to 
+damage or exploit systems. Ransomware, for example, encrypts data and demands payment for its 
+release. 
+Man-in-the-Middle (MitM) A acks: A ackers intercept communica on between two par es to steal 
+data, creden als, or insert malicious content. This o en happens on unsecured or public Wi-Fi 
+networks. 
+Denial of Service (DoS) / Distributed Denial of Service (DDoS): A ackers flood a system or network 
+with excessive traffic, overwhelming it and causing legi mate requests to be denied. 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+SQL Injec on: A ackers insert malicious SQL code into a web applica on's database query, allowing 
+them to manipulate or gain unauthorized access to the database. 
+Cross-Site Scrip ng (XSS): A ackers inject malicious scripts into trusted websites, which then execute 
+in the vicm's browser, poten ally leading to session hijacking or data the . 
+Password A acks: These include brute force, dic onary a acks, and creden al stuffing, where 
+a ackers a empt to guess or crack passwords to gain unauthorized access to systems. 
+Insider Threats: Malicious or careless employees, contractors, or business partners who have access 
+to sensi ve informa on and misuse or expose it. 
+Zero-Day Exploits: A acks that target vulnerabili es in so ware that are unknown to the so ware 
+vendor and have no available patches. 
+Advanced Persistent Threats (APTs): Long-term targeted a acks, o en by na on-states or well
+funded a ackers, designed to steal sensi ve informa on or disrupt opera ons. 
+7.  What is difference between hashing and encryp on? 
+Both Encryp on and Hashing are used to convert readable data into an unreadable format. The 
+difference is that the encrypted data can be converted back to original data by the process of 
+decryp on but the hashed data cannot be converted back to original data. 
+8. What are the different layers of the OSI model? 
+An OSI model is a reference model for how applica ons communicate over a network. The 
+purpose of an OSI reference is to guide vendors and developers so the digital communica on 
+products and soware programs can interoperate. 
+Following are the OSI layers:  
+Physical Layer: Responsible for transmission of digital data from sender to receiver through the 
+communica on media,  
+Data Link Layer: Handles the movement of data to and from the physical link. It is also 
+responsible for encoding and decoding of data bits. 
+Network Layer: Responsible for packet forwarding and providing rou ng paths for network 
+communica on.  
+Transport Layer: Responsible for end-to-end communica on over the network. It splits the data 
+from the above layer and passes it to the Network Layer and then ensures that all the data has 
+successfully reached at the receiver’s end. 
+Session Layer: Controls connec on between the sender and the receiver. It is responsible for 
+star ng, ending, and managing the session and establishing, maintaining and synchronizing 
+interac on between the sender and the receiver.  
+Presenta on Layer: It deals with presen ng the data in a proper format and data structure 
+instead of sending raw datagrams or packets.  
+Applica on Layer: It provides an interface between the applica on and the network. It focuses 
+on process-to-process communica on and provides a communica on interface. 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+9. What is TCP 3-way Handshake? 
+A three-way handshake is a method used in a TCP/IP network to create a connec on between a 
+host and a client. It’s called a three-way handshake because it is a three-step method in which 
+the client and server exchanges packets. 
+The three steps are as follows:  
+1. The client sends a SYN(Synchronize) packet to the server check if the server is up or has open 
+ports  
+2. The server sends SYN-ACK packet to the client if it has open ports  
+3. The client acknowledges this and sends an ACK(Acknowledgment) packet back to the server                            
+10. What’s the difference between a white box test and a black box test? 
+White Box Testing: Testers have full knowledge of the internal structure, design, and 
+implementation of the software or system. This includes access to source code, architecture, and 
+algorithms. 
+Black Box Testing: Testers have no knowledge of the internal workings. They evaluate the system 
+solely based on its inputs and outputs without understanding the underlying code or 
+architecture. 
+11. What is the difference between Vulnerability, Risk and Threat? 
+Vulnerability: A weakness in a system (e.g., unpatched software). 
+Risk: The potential for loss associated with exploiting a vulnerability (e.g., data breach risk). 
+Threat: The potential danger that could exploit a vulnerability (e.g., cybercriminals). 
+12. What are HIDS and NIDS? 
+HIDS (Host IDS) and NIDS (Network IDS) are both Intrusion Detec on System and work for the 
+same purpose i.e., to detect the intrusions. The only difference is that the HIDS is set up on a 
+par cular host/device. It monitors the traffic of a par cular device and suspicious system 
+ac vi es. On the other hand, NIDS is set up on a network. It monitors traffic of all device of the 
+network. 
+13. What is Indicator of Compromise? 
+An Indicator of Compromise (IoC) is a piece of evidence or data that suggests a security breach 
+or malicious activity has occurred in a system or network. IoCs are like digital breadcrumbs left 
+behind by attackers that can help cybersecurity teams identify, detect, and respond to potential 
+threats or ongoing attacks. 
+14. What are OWASP Top 10 Vulnerabili es? 
+The OWASP Top 10 is a list of the most cri cal web applica on security risks, compiled by the 
+Open Web Applica on Security Project (OWASP). It provides guidance to developers, security 
+teams, and organiza ons on addressing the most common and impac ul vulnerabili es. The 
+most recent OWASP Top 10 list (2021) includes the following: 
+1. Broken Access Control: 
+ Descrip on: Flaws that allow users to act outside their intended permissions, such as gaining 
+unauthorized access to restricted resources. 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+ Example: A normal user modifying a URL to access an admin page. 
+2. Cryptographic Failures: 
+ Descrip on: Weak or improperly implemented cryptographic mechanisms that expose 
+sensi ve data. 
+ Example: Storing passwords in plaintext or using weak encryp on algorithms like MD5. 
+3. Injec on: 
+ Descrip on: Inser ng malicious code into a program, o en through user inputs, to execute 
+unintended commands or queries. 
+ Example: SQL injec on, where an a acker can manipulate a database query by injec ng SQL 
+code. 
+4. Insecure Design: 
+ Descrip on: Flaws resul ng from the absence of security in the design of applica ons, o en 
+due to lack of security controls in the design phase. 
+ Example: No proper valida on on inputs allowing for a acks like XSS. 
+5. Security Misconfigura on: 
+ Descrip on: Improper configura on of security se ngs in applica ons, servers, or 
+databases, exposing systems to a acks. 
+ Example: Leaving default accounts ac ve, unnecessary features enabled, or error messages 
+revealing too much informa on. 
+6. Vulnerable and Outdated Components: 
+ Descrip on: Using libraries, frameworks, or other components with known vulnerabili es 
+can introduce security risks. 
+ Example: Running an outdated version of a so ware library that is vulnerable to known 
+a acks. 
+7. Iden fica on and Authen ca on Failures: 
+ Descrip on: Weak authen ca on mechanisms or improper session handling, which allow 
+a ackers to compromise user iden es. 
+ Example: Allowing weak passwords or session hijacking due to insecure token handling. 
+8. Soware and Data Integrity Failures: 
+ Descrip on: Failures related to soware updates, cri cal data, or CI/CD pipelines not being 
+properly verified for integrity. 
+ Example: Allowing unsigned or untrusted soware updates, which could lead to 
+compromise. 
+9. Security Logging and Monitoring Failures: 
+ Descrip on: Lack of sufficient logging, monitoring, or response mechanisms, leading to 
+undetected a acks and delayed incident response. 
+ Example: Not logging failed login a empts or ignoring alerts for suspicious ac vity. 
+10. Server-Side Request Forgery (SSRF): 
+ Descrip on: An a acker tricks a server into making unintended requests to other resources, 
+poten ally exposing sensi ve internal systems. 
+ Example: Exploi ng an API to make the server fetch unauthorized data from internal 
+networks. 
+15. What is SSL Handshake? 
+The network is important for office, home, and business networks. The problem is at the utmost 
+places wireless communica on is used or we can say the wireless network is used which is 
+effortlessly hackable and the router can be freely exploited if not secured rightly. So there’s a 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+need for security in the network. To fulfill this need we can use security protocols or 
+cryptographic protocols to deliver authen ca on and data security. 
+16. What is a Cyber Kill Chain? 
+The cyber kill chain is an adapta on of the military’s kill chain, which is a step-by-step approach 
+that iden fies and stops enemy ac vity. Originally developed by Lockheed Mar n in 2011, the 
+cyber kill chain outlines the various stages of several common cybera acks and, by extension, 
+the points at which the informa on security team can prevent, detect or intercept a ackers. 
+17. How does Traceroute work? 
+A traceroute works by sending Internet Control Message Protocol (ICMP) packets, and every 
+router involved in transferring the data gets these packets. The ICMP packets provide 
+informa on about whether the routers used in the transmission are able to effec vely transfer 
+the data. 
+18. What is Incident response process? 
+Incident Response Process: Establish a clear sequence of steps for incident detec on, 
+containment, eradica on, recovery, and post-incident review. Ownership and Responsibility: 
+Assign specific roles for each stage of the response process, with clear tles and contact details 
+for each team member. 
+19. What is PKI? 
+Public key infrastructure is an important aspect of internet security. It is the set of technology 
+and processes that make up a framework of encryp on to protect and authen cate digital 
+communica ons.  
+PKI uses cryptographic public keys that are connected to a digital cer ficate, which authen cates 
+the device or user sending the digital communica on. Digital cer ficates are issued by a trusted 
+source, a cer ficate authority (CA), and act as a type of digital passport to ensure that the sender 
+is who they say they are. 
+Public key infrastructure protects and authen cates communica ons between servers and users, 
+such as between your website (hosted on your web server) and your clients (the user trying to 
+connect through their browser. It can also be used for secure communica ons within an 
+organiza on to ensure that the messages are only visible to the sender and recipient, and they 
+have not been tampered with in transit.  
+The main components of public key infrastructure include the following: 
+ Cer ficate authority (CA): The CA is a trusted en ty that issues, stores, and signs the digital 
+cer ficate. The CA signs the digital cer ficate with their own private key and then publishes 
+the public key that can be accessed upon request. 
+ Registra on authority (RA): The RA verifies the iden ty of the user or device reques ng the 
+digital cer ficate. This can be a third party, or the CA can also act as the RA.   
+ Cer ficate database: This database stores the digital cer ficate and its metadata, which 
+includes how long the cer ficate is valid. 
+ Central directory: This is the secure loca on where the cryptographic keys are indexed and 
+stored.   
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+ Cer ficate management system: This is the system for managing the delivery of cer ficates 
+as well as access to them.   
+ Cer ficate policy: This policy outlines the procedures of the PKI. It can be used by outsiders 
+to determine the PKI’s trustworthiness. 
+20. What is SQL Injec on? 
+SQL injec on (SQLi) is a web security vulnerability that allows an a acker to interfere with the 
+queries that an applica on makes to its database. This can allow an a acker to view data that 
+they are not normally able to retrieve. This might include data that belongs to other users, or any 
+other data that the applica on can access. In many cases, an a acker can modify or delete this 
+data, causing persistent changes to the applica on's content or behaviour. 
+21. What is Zero-day vulnerability? 
+"Zero day" refers to the fact that the soware or device vendor has zero days to fix the flaw 
+because malicious actors can already use it to access vulnerable systems. The unknown or 
+unaddressed vulnerability is referred to as a zero-day vulnerability or zero-day threat. 
+22. What is the principle of least privilege? 
+The principle of least privilege, also called "least privilege access," is the concept that a user 
+should only have access to what they absolutely need in order to perform their responsibili es, 
+and no more. The more a given user has access to, the greater the nega ve impact if their 
+account is compromised or if they become an insider threat. 
+23. What is MITRE A ack Framework? 
+The MITRE ATTACK Framework is a curated knowledge base that tracks cyber adversary tac cs 
+and techniques used by threat actors across the en re a ack lifecycle. The framework is meant 
+to be more than a collec on of data: it is intended to be used as a tool to strengthen an 
+organiza on’s security posture. 
+24. What is Zero Trust Framework? 
+Zero Trust is a security framework requiring all users, whether in or outside the organiza on’s 
+network, to be authen cated, authorized, and con nuously validated for security configura on 
+and posture before being granted or keeping access to applica ons and data.  
+25. What are some common threat vectors? 
+Common threat vectors in cybersecurity refer to the pathways or methods that adversaries use 
+to breach systems or networks.  There are some types of threats vectors. 
+1. Phishing: Fraudulent a empts to obtain sensi ve informa on such as usernames, 
+passwords, or credit card details by masquerading as a trustworthy en ty in emails, 
+messages, or websites. 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+2. Malware: Malicious soware (e.g., viruses, ransomware, spyware, trojans) that compromises 
+systems by exploi ng vulnerabili es, o en delivered through emails, downloads, or 
+compromised websites. 
+3. Social Engineering: Manipula ng individuals into divulging confiden al informa on through 
+non-technical means, such as impersona on or psychological manipula on. 
+4. Insider Threats: Employees or contractors with access to sensi ve informa on inten onally 
+or uninten onally compromising security, either by leaking data or exploi ng their access for 
+malicious purposes. 
+5. Weak Passwords: Poor password prac ces, like using weak or reused passwords, can allow 
+a ackers to easily guess or brute-force creden als and gain unauthorized access. 
+6. Soware Vulnerabili es: Unpatched or outdated so ware with security flaws that can be 
+exploited by a ackers to gain unauthorized access, escalate privileges, or deploy malware. 
+7. Unsecured Wi-Fi Networks: Public or unprotected wireless networks can be exploited by 
+a ackers to intercept data or perform man-in-the-middle a acks. 
+8. Distributed Denial of Service (DDoS): A ackers flood a network or website with excessive 
+traffic, causing services to become unavailable to legi mate users. 
+9. Third-party Vendors: Insecure third-party soware, hardware, or service providers with 
+access to systems can introduce vulnerabili es that a ackers can exploit. 
+10. Mobile Devices: The growing use of mobile devices can lead to exposure if these devices are 
+not properly secured, with risks including malware, phishing, or lost/stolen devices. 
+11. Cloud Security Gaps: Misconfigura ons or poor access control in cloud services can expose 
+sensi ve data to unauthorized users or malicious actors. 
+26. What is ARP? 
+Address Resolu on Protocol (ARP)is a protocol for mapping an Internet Protocol address (IP 
+address) to a physical machine address that is recognized in the local network. 
+When an incoming packet des ned for a host machine on a par cular local area network arrives 
+at a gateway, the gateway asks the ARP program to find a physical host or MAC address that 
+matches the IP address.  
+The ARP program looks in the ARP cache and, if it finds the address, provides it so that the packet 
+can be converted to the right packet length and format and sent to the machine.  
+If no entry is found for the IP address, ARP broadcasts a request packet in a special format to all 
+the machines on the LAN to see if one machine knows that it has that IP address associated with 
+it. 
+27. What is DHCP? 
+DHCP stands for Dynamic Host Configura on Protocol. It is the cri cal feature on which the users 
+of an enterprise network communicate. DHCP helps enterprises to smoothly manage the 
+alloca on of IP addresses to the end-user clients’ devices such as desktops, laptops, cell phones, 
+etc. is an applica on layer protocol that is used to provide. 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
+28. What are the HTTP response codes? 
+HTTP response status codes indicate whether a specific HTTP request has been successfully 
+completed. Responses are grouped in five classes: Informa onal responses (100 – 199) 
+Successful responses (200 – 299) Redirec on messages (300 – 399) Client error responses (400 – 
+499) Server error responses (500 – 599). 
+29. What is WAF (Web Applica on Firewall)? 
+A Web Applica on Firewall (WAF) is a security solu on that monitors, filters, and protects HTTP 
+traffic to and from a web applica on. It acts as a shield between a web applica on and the 
+Internet, helping to prevent various types of a acks, such as: 
+1. SQL Injec on: A acks that exploit vulnerabili es in the applica on’s database layer. 
+2. Cross-Site Scrip ng (XSS): A acks that inject malicious scripts into web pages viewed by 
+other users. 
+3. Cross-Site Request Forgery (CSRF): A acks that trick users into submi ng unwanted ac ons 
+on a web applica on. 
+4. Distributed Denial of Service (DDoS): A empts to overwhelm the applica on with traffic. 
+Key Features of WAFs: 
+ Traffic Monitoring: Analyzes incoming and outgoing web traffic for malicious ac vity. 
+ Threat Intelligence: U lizes known a ack pa erns and signatures to block a acks. 
+ Custom Rules: Allows organiza ons to create specific rules tailored to their applica on’s 
+needs. 
+ Session Protec on: Protects user sessions from hijacking and other unauthorized ac ons. 
+ Logging and Repor ng: Provides insights and analy cs on traffic pa erns, poten al threats, 
+and incidents. 
+Deployment Types: 
+1. Cloud-based WAF: Deployed as a service in the cloud, offering scalability and ease of 
+management. 
+2. On-Premises WAF: Installed locally on the organiza on’s servers, providing greater control 
+over security policies. 
+3. Hybrid WAF: Combines both cloud and on-premises deployment. 
+Benefits of Using a WAF: 
+ Improved Security: Protects against a variety of web applica on a acks. 
+ Compliance: Helps organiza ons meet regulatory requirements related to data protec on. 
+ Performance Enhancement: Can opmize web traffic and improve applica on performance 
+through caching and load balancing. 
+30. Ques ons on Ports number:- 
+HTTP 
+HTTPS 
+80 
+443 
+DNS 
+SNMTP 
+53(OR UDP) 
+25 
+REMOTE DESKTOP 3389 
+FTP 
+SMB 
+21 
+445 
+TOP 30 Cybersecurity Interview Ques ons [For Freshers] 
